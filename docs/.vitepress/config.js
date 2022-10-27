@@ -1,5 +1,8 @@
 export default {
   title: 'VitePress',
   description: 'Just playing around.',
-  base: '/vitepress-starter/'
+  base: '/vitepress-starter/',
+  markdown: {
+    lineNumbers: true
+  }
 }
