@@ -37,7 +37,16 @@ const config = {
     lastUpdatedText: '上次更新日期',
     footer: {
       message: 'Made By 录人&刘亦菲的影迷朋友们 ❤️ | Copyright ©2022 | <a href="https://www.douban.com/group/topic/276689884/?_i=5716003Rn8heGv">Feedback</a>',
-    }
+    },
+    docFooter: {
+      pre: '上一页',
+      next: '下一页'
+    },
+    outline: 'deep',
+    outlineTitle: '当前页面',
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/zhoululu/vitepress-starter' }
+    ]
   }
 }
 export default config
